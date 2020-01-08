@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#conteiner{
+    width: 100%;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    height: 20%;
+    background-color: cornflowerblue;
+    overflow: hidden;
+}
+main{
+    width: 100%;
+    height: 70%;
+    
+}
+footer{
+    width: 100%;
+    height: 10%;
+    background-color: dodgerblue;
+}
+.marg{
+    width: 5%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+#shop{
+    width: 90%;
+    height: 100%;
+    background-color: blue;
+    float: left;
+    overflow-y: scroll;
+}
+.proizvod{
+    
+    width: 22%;
+    padding-top: 22%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    background: yellow;
+}
+#prozorce{
+    width: 15%;
+    height: 80%;
+    background-color: blueviolet;
+    float: right;
+    position: relative;
+    left: 8%;
+    top: 10%;
+}
+#slider{
+    height: 100%;
+    width: 40%;
+    background-color: crimson;
+    float: left;
+}
+#filter{
+    height: 100%;
+    width: 30%;
+    background-color: cyan;
+    float: left;
+}
+#search{
+    height: 100%;
+    width: 30%;
+    background-color: darkgreen;
+    float: left;
+}
